@@ -1,0 +1,15 @@
+
+(a|b)*abb
+abb, aabb, ab, babb, aab, abab, abababb, EMPTY
+
+(0|1)*01
+01, 001, 101, 0, 10, 1001, 0101
+
+a*b+
+b, ab, aab, aaab, a, bb, abb, EMPTY
+
+(ab)+
+ab, abab, ababab, a, b, ba, EMPTY
+
+a(b|c)*d
+ad, abd, acd, abcd, abbd, accd, d, abcbd, EMPTY
